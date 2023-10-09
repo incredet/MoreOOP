@@ -11,10 +11,9 @@ public class KnightTest {
     public void init() {
         character = new Knight();
     }
-
     @Test
     public void testIsClass() {
-        assertTrue(character instanceof Character);
+        assertTrue(character instanceof lotr.Character);
     }
 
     @Test
